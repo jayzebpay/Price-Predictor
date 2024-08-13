@@ -1,3 +1,0 @@
-export const DECIMAL_PLACES_DEFAULT_VALUE = 4;
-
-export const REFERENCE_FONT_SIZE = 16;

@@ -84,6 +84,7 @@ export const ButtonWrapper = styled.div`
 
 export const Component15 = styled.div`
   display: flex;
+  
   width: 45.5rem;
 height: 15.75rem;
   flex-direction: column;
@@ -212,13 +213,13 @@ display: flex;
 padding: 0.75rem;
 flex-direction: column;
 align-items: flex-start;
+margin-top: 0.75rem;
 gap: 0.625rem;
 align-self: stretch;
   border-radius: 0.5rem;
 border: 0.5px solid var(--yellow-01-primary, #F9C35C);
 backdrop-filter: blur(0px);
 `;
-
 export const labelStyle = styled.div`
   font-family: Lato;
   font-style: normal;
@@ -279,6 +280,9 @@ font-weight: 400;
 line-height: 1.125rem; /* 150% */
 letter-spacing: 0.025rem;
 color: var(--Shimmer-Zeb_Solid-White, #FFF);
+display: flex;
+justify-content: space-between;
+align-items: center;
 `;
 export const Frame458 = styled.div`
 display: flex;
@@ -310,10 +314,41 @@ font-feature-settings: 'liga' off, 'clig' off;
 export const Divi = styled.div`
 margin-top: 0.6rem;
 font-family: Lato;
-font-size: 1.45rem;
+font-size: 1.02rem;
 font-style: normal;
 font-weight: 400;
 line-height: 1.125rem; /* 150% */
 letter-spacing: 0.025rem;
 color: var(--Shimmer-Zeb_Solid-White, #FFF);
+`;
+export const Cols = styled.div`
+padding: 0.9rem;
+
+
+`;
+export const Chart = styled.div`
+width: 100%;
+  height: 100%;
+
+
+`;
+export const CryptoOption = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  margin: 0.4rem;
+`;
+
+export const CryptoIcon = styled.img`
+  // margin-top: 0.6rem;
+  width: 1.5rem;
+  height: 1.5rem;
+`;
+
+export const CryptoText = styled.div`
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+  line-height: 1.2;
+  font-size: 1rem; /* 16px to rem */
+  align-items: center;
 `;
